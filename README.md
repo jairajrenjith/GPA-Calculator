@@ -1,4 +1,4 @@
-# GradeStack — SGPA & CGPA Calculator
+# GPA Calculator — SGPA & CGPA Calculator
 
 > A sleek, terminal-inspired academic GPA calculator. Track every semester, name your subjects, and compute SGPA and CGPA in real time — with a dark/light theme toggle and full mobile support.
 
@@ -23,7 +23,7 @@
 
 ## Overview
 
-**GradeStack** started as a minimal single-semester SGPA tool and evolved into a full-featured academic GPA dashboard. Whether you want to cross-check one semester's performance or compute your cumulative GPA across an entire degree, GradeStack has you covered — with zero dependencies and zero backend.
+**GPA Calculator** started as a minimal single-semester SGPA tool and evolved into a full-featured academic GPA dashboard. Whether you want to cross-check one semester's performance or compute your cumulative GPA across an entire degree, GPA Calculator has you covered — with zero dependencies and zero backend.
 
 ---
 
@@ -115,7 +115,7 @@ This ensures that semesters with different total credit loads are weighted corre
 ## File Structure
 
 ```
-gradestack/
+GPA Calculator/
 │
 ├── index.html       # Application shell, layout, modal markup
 ├── styles.css       # All styling — themes, components, animations, responsive
@@ -168,8 +168,8 @@ No build step, no Node, no dependencies.
 
 ```bash
 # Clone or download the repository
-git clone https://github.com/your-username/gradestack.git
-cd gradestack
+git clone https://github.com/your-username/GPA Calculator.git
+cd GPA Calculator
 
 # Open directly in browser
 open index.html          # macOS
